@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miracleworld.lingxingdao.android"
+    android:versionCode="6"
+    android:versionName="0.6_Beta" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 微信支付权限需要的额外的权限 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 支付宝支付需要的额外的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.miracleworld.lingxingdao.android.App"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.login.EnterActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 首页 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 主页详情 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.HomeDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 订阅 -->
+        <!-- 音频播放 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.PlayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 内容详情 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.SubscriptionActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 频道详情 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ChannelDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 付费购买详情 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.PayInterfaceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 研讨会详情 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ScheduleDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 图片放大 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ScraleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <!-- 省列表 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ProvenceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 市列表 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.CityActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 登陆注册 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.login.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 找回密码 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.login.ForgetActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 快速注册 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.login.RegistActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 个人资料 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.personal.MyPersonalDataActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 个人中心 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.my.MyPersonEditActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 编辑用户名 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.my.MyUserNameEditActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 编辑昵称 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.my.MyNickNameEditActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <!-- 支付结果页 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 支付历史 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.pay.HistoryForPayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.DetailofHistoryTicketActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 订阅管理 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ManageSubscribeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 切图 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.CropActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <!-- 微信支付注册微信的广播 -->
+        <receiver android:name="com.miracleworld.lingxingdao.android.receive.AppRegist" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <!-- 支付宝的h5页面 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <!-- 订阅频道 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ChannelActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 订阅频道2 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.ChannelActivity2"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 支付填写 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.PayWriteActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 购票人 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.CustomerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 添加购票人 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.AddCustomerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 购票支付 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.pay.TicketForPayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="ANDROID.INTENT.CATEGORY.DEFAULT" />
+
+                <data android:scheme="wxa2db220a3e999587" />
+            </intent-filter>
+        </activity>
+
+        <!-- 订阅支付 -->
+        <activity
+            android:name="com.miracleworld.lingxingdao.android.activity.pay.SubscribeForPayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="ANDROID.INTENT.CATEGORY.DEFAULT" />
+
+                <data android:scheme="wxa2db220a3e999587" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

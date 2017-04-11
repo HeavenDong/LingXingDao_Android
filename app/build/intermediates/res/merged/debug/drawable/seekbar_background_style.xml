@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="line">
+            <stroke android:width="2.0dip" android:color="@color/white" />
+        </shape>
+    </item>
+    <!--<item android:id="@android:id/secondaryProgress">-->
+        <!--<clip>-->
+            <!--<shape android:shape="line">-->
+                <!--<stroke android:width="2.0dip" android:color="@color/biz_audio_progress_second" />-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="line">
+                <stroke android:width="2.0dip" android:color="@color/play_progress_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/drawable/seekbar_background_style.xml -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:id="@+id/send_gift_friendlistitem">
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="30dp"
+            android:textSize="14dp"
+            android:text="地址"/>
+    <ImageView
+        android:id="@+id/address_arraw"
+        style="@style/Arrow"
+        android:layout_marginLeft="10dp"
+        />
+      <View style="@style/Divider"
+          android:layout_marginTop="10dp"
+          android:layout_below="@+id/address_name"
+          android:layout_marginLeft="30dp"/>
+  </RelativeLayout>
+
+
+</LinearLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/my_addfess_listitem.xml -->

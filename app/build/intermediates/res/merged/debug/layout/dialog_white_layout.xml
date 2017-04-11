@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingBottom="18dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="18dp"
+    android:gravity="center"
+>
+<Button
+    android:id="@+id/dialog_talks"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="14sp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    />
+  <!--  <TextView       android:background="@drawable/toast_back"
+        android:id="@+id/dialog_talks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />-->
+
+</LinearLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/dialog_white_layout.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:gravity="center"
+    android:background="@drawable/toast_temp_main">
+    <RelativeLayout
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toast_temp_content">
+    <TextView
+        android:id="@+id/talks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/footer_font_color"
+        android:layout_centerHorizontal="true"
+        
+        />
+    </RelativeLayout>
+</LinearLayout>
+<!--match_parent--><!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/temp.xml -->

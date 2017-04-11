@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item android:drawable="@drawable/selected_ticketer" android:state_checked="true" android:state_enabled="true" />
+<item android:drawable="@drawable/normal_ticketer" android:state_checked="false" android:state_enabled="true" />
+<item android:drawable="@drawable/selected_ticketer" />
+
+
+</selector><!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/drawable/add_students_check_style.xml -->

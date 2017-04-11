@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_teacher_name_font_color">
+<TextView
+    android:paddingLeft="36dp"
+    android:paddingBottom="15dp"
+    android:id="@+id/teachercategory_lv_item_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="13sp"/>
+</LinearLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/main_right_teachercategory_lv_item.xml -->

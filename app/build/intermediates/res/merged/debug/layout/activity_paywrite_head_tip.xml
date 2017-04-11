@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/paywrite_head_jia_group"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/buy_ticket_person"
+            android:layout_centerVertical="true"
+            android:textColor="@color/content_font_color"
+            android:text="@string/buy_ticket_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_toRightOf="@+id/buy_ticket_person"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_limit"
+            android:text="@string/buy_limit_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/paywrite_head_jia"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_students"/>
+    </RelativeLayout>
+</LinearLayout>
+
+
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/activity_paywrite_head_tip.xml -->

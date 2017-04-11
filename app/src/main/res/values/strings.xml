@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">灵性岛</string>
+    <string name="action_settings">Settings</string>
+    <!-- 主界面双击返回-->
+    <string name="main_again_exit">再按一次退出程序</string>
+    <!-- http-->
+    <string name="server_not_given_resource">服务器找不到给定的资源</string>
+    <string name="unexpected_no_request">因为意外情况，服务器不能完成请求</string>
+    <string name="temp_no_request">由于临时过载或维护，服务器无法处理请求。</string>
+    <string name="network_no_force">你的网络不给力!</string>
+    <!--网络响应：系统异常SystemException-->
+    <string name="system_exception">系统异常!</string>
+    <!-- 最后一条数据-->
+    <string name="item_last">没有啦~</string>
+    <!-- 列表页-->
+    <!-- 布局：底部导航bottom_-->
+    <string name="bottom_home">首页</string>
+    <string name="bottom_schedule">研讨会</string>
+    <string name="bottom_content">内容</string>
+    <string name="bottom_connect">连接</string>
+    <string name="bottom_mall">商城</string>
+    <!-- 剪切图片-->
+    <string name="oom_catch">手机内存异常，请重新添加!</string>
+    <!-- 左边侧滑：订阅讲师-->
+    <string name="subscibe_teacher">订阅讲师</string>
+    <!--未设置-->
+    <string name="not_set">未设置</string>
+    <!-- 缺省界面的文字-->
+    <string name="connect_fragment_default">敬请期待！</string>
+    <string name="mall_fragment_default">敬请期待！</string>
+    <!-- 侧滑右边所有讲师-->
+    <string name="main_drawer_right_title_all">全部</string>
+    <!-- 侧滑：左滑-->
+    <!-- 侧滑的标题名称-->
+    <string name="main_drawer_left_title">我</string>
+    <!-- 侧滑的用户名称-->
+    <string name="main_drawer_left_username">用户名:</string>
+    <!-- 侧滑的用户个人资料-->
+    <string name="main_drawer_left_persondata">个人资料</string>
+    <!-- 侧滑的用户个人信息设置-->
+    <string name="main_drawer_left_persondata_setting">个人信息设置</string>
+    <!-- 侧滑的用户个人支付历史-->
+    <string name="main_drawer_left_pay_history">支付历史</string>
+    <!-- 侧滑的用户订阅管理-->
+    <string name="main_drawer_left_subscription_manager">订阅管理</string>
+    <!-- 侧滑的收件箱-->
+    <string name="main_drawer_left_inbox">收件箱</string>
+    <!-- 侧滑：右滑-->
+    <!-- 侧滑讲师分类-->
+    <string name="main_drawer_right_teacher_category">分类筛选</string>
+    <!-- 主页新闻详情网络提示home_detail_net_message-->
+    <string name="home_detail_net_wrongmessage">网络不好，请检查网络！</string>
+    <!-- 订阅界面-->
+    <!-- 订阅界面的讲师简介-->
+    <string name="subscription_teacher_introduce">讲师简介</string>
+    <!--订阅详情-->
+    <!-- 订阅详情的复杂列表标题-->
+    <!-- 去订阅这个内容的频道-->
+    <string name="subscription_paytodetail">去订阅这个内容的频道？</string>
+    <!-- 去订阅这个内容的频道-->
+    <string name="subscription_paytodetail_go">现在就去</string>
+    <!-- 去订阅这个内容的频道：现在就去-->
+    <string name="subscription_paytodetail_leave">不去了</string>
+    <!-- 订阅详情的 横向的全部类别-->
+    <string name="subscription_category_all">全部类别</string>
+    <!-- 订阅详情的 横向的全部类别-->
+    <string name="subscription_channel">订阅频道</string>
+    <!-- 已订阅-->
+    <string name="subscription_done">已订阅</string>
+    <!-- 点击收起-->
+    <string name="subscription_click_part">点击收起</string>
+    <!-- 查看全部-->
+    <string name="subscription_click_all">查看全部</string>
+    <!-- 未订阅,请订阅-->
+    <string name="subscription_no_please">您还没有订阅呦\n快去订阅吧~</string>
+    <!-- 订阅：￥-->
+    <string name="money">¥</string>
+    <!-- 订阅：￥-->
+    <string name="subscription_money">订阅：¥</string>
+    <!-- /月-->
+    <string name="subscription_everymouth">/月</string>
+    <string name="subscription_lesson_free">免费课程</string>
+    <string name="subscription_lesson_pay">付费课程</string>
+    <string name="subscription_title_free">免费</string>
+    <string name="subscription_title_payed">付费</string>
+    <string name="subscription_title_subscribed">已订阅</string>
+    <!--音频播放页面 课程名称：-->
+    <string name="play_front_content">内容名称：</string>
+    <string name="toast_net">您的网络不给力</string>
+    <!--登陆-->
+    <string name="login_toast1">您忘记输入手机号了~</string>
+    <string name="login_toast2">手机号码输入有误，请重新输入~</string>
+    <string name="login_toast3">您忘了输入密码了~</string>
+    <string name="login_toast4">密码输入有误，请重新输入~</string>
+    <string name="login_text1">请输入您的手机号</string>
+    <string name="login_text2">请输入(6~20位)密码</string>
+    <string name="login_text3">立即注册</string>
+    <string name="login_text4">找回密码</string>
+    <string name="login_text5">登录</string>
+    <string name="login_text6">还没有账户?</string>
+    <!--短信-->
+    <string name="regist_text0">重新发送(</string>
+    <string name="regist_text1">重新获取</string>
+    <string name="forget_text7">确定</string>
+    <string name="send_error_text">短信服务器异常</string>
+    <!--标题 右键-->
+    <string name="title_right">保存</string>
+    <!--切图-->
+    <string name="crop_button">选取</string>
+    <string name="crop_canle">取消</string>
+    <!--注册-->
+    <string name="regist_toast1">您忘记输入手机号了~</string>
+    <string name="regist_text3">请输入你的手机号</string>
+    <string name="regist_text2">手机号码输入有误，请重新输入~</string>
+    <string name="regist_text4">密码输入有误，请重新输入~</string>
+    <string name="regist_text7">您输入的手机号已注册~</string>
+    <string name="regist_text11">您忘记输入密码了~</string>
+    <string name="regist_text12">您忘记输入验证码了~</string>
+    <string name="regist_text14">密码输入有误，请重新输入~</string>
+    <string name="regist_text15">注册</string>
+    <string name="regist_text16">请输入您的手机号</string>
+    <string name="regist_text17">请输入验证码</string>
+    <string name="regist_text18">获取验证码</string>
+    <string name="regist_text19">请设置(6~20位)密码</string>
+    <string name="regist_text20">注册</string>
+    <string name="regist_text21">注册即表示同意灵性岛</string>
+    <string name="regist_text22">用户协议</string>
+    <string name="regist_text23">验证码错误</string>
+    <string name="regist_text24">系统异常</string>
+    <string name="regist_text25">用户不存在</string>
+    <string name="regist_text26">用户id为空</string>
+    <string name="regist_text27">查无数据</string>
+    <string name="regist_text28">已发送</string>
+    <string name="regist_text29">您输入的手机号已注册~</string>
+    <!--找回密码-->
+    <string name="forget_toast1">手机号码不能为空</string>
+    <string name="forget_toast2">请检查你输入的手机号是否正确</string>
+    <string name="forget_toast4">用户不存在</string>
+    <string name="forget_toast5">你的网络不给力</string>
+    <string name="forget_toast6">忘记输入手机号了。</string>
+    <string name="forget_toast7">您输入的手机号貌似不对。</string>
+    <string name="forget_toast8">忘了输入密码了。</string>
+    <string name="forget_toast9">忘了输入验证码了。</string>
+    <string name="forget_toast10">重置成功</string>
+    <string name="forget_toast11">重置失败</string>
+    <string name="forget_toast12">请输入你的手机号</string>
+    <string name="forget_toast13">请检查你输入的手机号是否正确</string>
+    <string name="forget_text1">找回密码</string>
+    <string name="forget_text2">请输入您的手机号</string>
+    <string name="forget_text3">请输入验证码</string>
+    <string name="forget_text4">获取验证码</string>
+    <string name="forget_text5">请重新设置(6~20位)密码</string>
+    <string name="forget_text6">确定</string>
+    <string name="forget_text8">验证码失效</string>
+    <string name="forget_text9">验证码错误</string>
+    <!--个人中心-->
+    <string name="my_username_hint">用户名是账号的唯一凭证，只能修改一次.可以使用6~12个字母、数字、下划线和减号，必须以字母开头</string>
+    <string name="my_username_dialog_title">用户名不合法</string>
+    <string name="my_username_dialog_text">用户名可以使用6~12个字母、数字、下划线和减号，必须以字母开头</string>
+    <string name="my_dialog_title">提示</string>
+    <string name="my_dialog_text">确认要退出当前账号吗?</string>
+    <string name="my_dialog_cancle">取消</string>
+    <string name="my_dialog_sure">确认</string>
+    <string name="my_title">个人信息</string>
+    <string name="my_text1">国家</string>
+    <string name="my_text2">城市</string>
+    <string name="my_text3">用户名</string>
+    <string name="my_text4">请编辑您的用户名</string>
+    <string name="my_text5">省会</string>
+    <string name="my_text6">名字</string>
+    <string name="my_text7">请编辑您的名字</string>
+    <string name="my_text8">上传成功</string>
+    <string name="my_text9">上传失败</string>
+    <string name="my_text10">头像</string>
+    <string name="my_text11">用户名</string>
+    <string name="my_text12">地区</string>
+    <string name="my_text13">未填写</string>
+    <string name="my_text14">退出登录</string>
+    <string name="my_text15">内容不能为空哟~</string>
+    <string name="my_text19">手机号码</string>
+    <string name="my_text20">从手机相册选择</string>
+    <string name="my_text21">取消</string>
+    <string name="my_text22">真实姓名</string>
+    <string name="my_text23">请编辑您的真实姓名</string>
+    <string name="my_text24">请编辑您的身份证</string>
+    <string name="my_text25">请编辑您的代理人</string>
+    <string name="personal_data_title">个人资料</string>
+    <string name="personal_data_text1">名字：</string>
+    <string name="personal_data_text2">订阅讲师</string>
+    <!--订阅支付-->
+    <string name="pay_text0">订阅频道：</string>
+    <string name="pay_text1">订阅支付</string>
+    <string name="pay_text2">订阅讲师：</string>
+    <string name="pay_text21">订阅频道：</string>
+    <string name="pay_text22">订阅时间：</string>
+    <string name="pay_text3">订阅周期：</string>
+    <string name="pay_text4">订阅金额：</string>
+    <string name="pay_text5">¥</string>
+    <string name="pay_text6">选择支付方式</string>
+    <string name="pay_text7">微信支付</string>
+    <string name="pay_text8">亿万用户的选择，更快更安全</string>
+    <string name="pay_text9">支付宝</string>
+    <string name="pay_text10">推荐支付宝用户使用</string>
+    <string name="pay_text11">代金卡</string>
+    <string name="pay_text12">请输入(16位)代金卡号</string>
+    <string name="pay_text13">验证码</string>
+    <string name="pay_text14">确认支付</string>
+    <string name="pay_toast1">您忘记输入代金卡号了~</string>
+    <string name="pay_toast2">验证码不能为空</string>
+    <string name="pay_toast3">亲，请选择支付方式</string>
+    <string name="pay_toast4">您输入的代金卡有误</string>
+    <string name="pay_toast5">您尚未安装微信，请先安装</string>
+    <!--购票支付-->
+    <string name="pay_ticket">购票支付</string>
+    <string name="pay_ticket1">主讲讲师：</string>
+    <string name="pay_ticket2">研讨会名称：</string>
+    <string name="pay_ticket3">研讨会时间：</string>
+    <string name="pay_ticket4">研讨会地点：</string>
+    <string name="pay_ticket5">门票金额：</string>
+
+    <!--支付历史-->
+    <string name="pay_history_text1">支付历史</string>
+    <string name="pay_history_text2">支付单号：</string>
+    <string name="pay_history_text3">支付方式：</string>
+    <string name="pay_history_text4">支付金额：</string>
+    <string name="pay_history_text5">订阅时间：</string>
+    <string name="pay_history_text6">频道历史</string>
+    <string name="pay_history_text7">购票历史</string>
+    <string name="pay_history_text8">研讨会讲师：</string>
+    <string name="pay_history_text9">研讨会名称：</string>
+    <string name="pay_history_text10">研讨会时间：</string>
+    <string name="pay_history_text11">研讨会地点：</string>
+    <string name="pay_history_text12">购票总额：</string>
+    <string name="pay_history_text13">票数：</string>
+    <string name="pay_history_text14">详情</string>
+    <!--订阅管理-->
+    <string name="manage_subscribe_text1">订阅管理</string>
+    <string name="manage_subscribe_text2">续订</string>
+    <string name="manage_subscribe_text3">上次订阅支付时间 :</string>
+    <string name="manage_subscribe_text4">到期时间 :</string>
+    <!--支付-->
+    <string name="wxpay_text1">支付成功</string>
+    <string name="wxpay_text2">支付失败</string>
+    <string name="wxpay_text3">取消支付</string>
+    <string name="carpay_text1">代金卡错误</string>
+    <string name="carpay_text2">您还没有勾选代金卡</string>
+    <!--订阅频道-->
+    <string name="channel_title">订阅频道</string>
+    <!--订阅-->
+    <string name="channel_subscript">订阅</string>
+    <!-- 研讨会详情-->
+    <string name="schedule_detail">研讨会详情</string>
+    <!-- 研讨会详情-->
+    <string name="channel_detail">频道详情</string>
+    <!-- 主讲讲师-->
+    <string name="master_teacher">主讲讲师:</string>
+    <!-- 研讨会地点-->
+    <string name="schedule_address">地点:</string>
+    <!--订阅频道-->
+    <string name="pay_title">付费频道</string>
+    <!-- 内容名称-->
+    <string name="content_title">内容名称</string>
+    <!-- 内容名称-->
+    <string name="channel_belong">所属频道</string>
+    <!-- 内容名称-->
+    <string name="channel_intro">频道简介</string>
+    <!-- 内容名称-->
+    <string name="content_category">频道类别</string>
+    <!-- 购票-->
+    <string name="buy_ticket">购票</string>
+    <!-- 内容名称-->
+    <string name="content_price">频道价格</string>
+    <!--支付填写-->
+    <string name="pay_write">支付填写</string>
+    <!-- 研讨会名称-->
+    <string name="schedule_name">研讨会名称</string>
+    <!-- 研讨会时间-->
+    <string name="schedule_time">研讨会时间</string>
+    <!-- 研讨会地点-->
+    <string name="schedule_addresss">研讨会地点</string>
+    <!-- 新学员-->
+    <string name="new_student">新学员</string>
+    <!-- 复训学员-->
+    <string name="old_student">复训学员</string>
+    <!-- 旁听学员-->
+    <string name="sitin_student">旁听学员</string>
+    <!-- 提问学员-->
+    <string name="ask_student">提问学员</string>
+    <!-- 复训价格描述-->
+    <string name="old_student_price_des">提醒：只有复训学员可享受价格的10%的优惠</string>
+    <!-- 购买数量-->
+    <string name="buy_count">购买数量</string>
+    <!-- 联系人信息1  -->
+    <string name="content_info1">联系人信息1</string>
+    <!-- 联系人信息2  -->
+    <string name="content_info2">联系人信息2</string>
+    <!-- 联系人信息3  -->
+    <string name="content_info3">联系人信息3</string>
+    <!-- 联系人信息4  -->
+    <string name="content_info4">联系人信息4</string>
+    <!-- 联系人信息5  -->
+    <string name="content_info5">联系人信息5</string>
+    <!-- 手机号  -->
+    <string name="phone_number">手机号</string>
+    <!-- 身份证  -->
+    <string name="id_card">身份证</string>
+    <!-- 姓名  -->
+    <string name="name">姓名</string>
+    <!-- 必填  -->
+    <string name="must_write">必填</string>
+    <!-- 提交支付-->
+    <string name="submit_pay">提交支付</string>
+    <!-- 在线支付-->
+    <string name="online_pay">在线支付</string>
+    <!-- /张-->
+    <string name="page">/张</string>
+    <!-- 姓名不能为空-->
+    <string name="name_must_have">姓名不能为空</string>
+    <!-- 手机号不能为空-->
+    <string name="phone_must_have">手机号不能为空</string>
+    <!-- 证件号不能为空-->
+    <string name="idcard_must_have">证件号不能为空</string>
+    <!-- 请输入正确姓名-->
+    <string name="name_must_right">请输入正确姓名</string>
+    <!-- 请输入正确手机号码-->
+    <string name="phone_must_right">请输入正确手机号码</string>
+    <!-- 请输入正确证件号-->
+    <string name="idcard_must_right">请输入正确证件号</string>
+    <!-- 请输入正确代理人-->
+    <string name="agent_must_right">请输入正确代理人</string>
+    <!--价格-->
+    <string name="price">价格:</string>
+    <!--价格-->
+    <string name="price_none">价格</string>
+    <!-- 复训价格-->
+    <string name="again_price">复训价格:</string>\
+    <!-- sitInPrice-->
+    <string name="sitin_price">旁听价格:</string>
+    <!--ask_price -->
+    <string name="ask_price">提问价格:</string>
+    <!-- 购票人-->
+    <string name="buy_ticket_person">购票人</string>
+    <!-- 限购20张-->
+    <string name="buy_limit_20">(限购20张)</string>
+    <!-- 暂无-->
+    <string name="no_available">暂无</string>
+    <!-- 对不起，限购20张票-->
+    <string name="sorry_20">对不起，限购20张票</string>
+    <!-- 你还没有添加任何购票人-->
+    <string name="sorry_no">你还没有添加任何购票人</string>
+    <!--购票人-->
+    <string name="add_ticket_customer">添加购票人</string>
+    <!--新增购票人-->
+    <string name="add_new_customer">新增购票人</string>
+    <!-- 编辑购票人-->
+    <string name="edit_new_customer">编辑购票人</string>
+    <string name="item_agent">代理人</string>
+    <string name="paywrite_item_student">新学员</string>
+    <string name="item_select">选填</string>
+    <!--购票历史详情-->
+    <string name="history_ticket_detail_unit">购票信息</string>
+    <string name="history_ticket_detail_type">学员类型</string>
+    <!--新闻-->
+    <string name="news">新闻</string>
+    <!--新内容-->
+    <string name="new_content">新内容</string>
+
+</resources>

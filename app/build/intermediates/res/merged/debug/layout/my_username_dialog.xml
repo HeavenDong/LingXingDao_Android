@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/white_fillet_background">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/my_username_dialog_title"
+            android:textSize="20sp"
+            />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/my_username_dialog_text"
+                android:textSize="18sp"
+                />
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+           />
+
+        <TextView
+            android:id="@+id/username_dialog_sure"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@color/white"
+            android:background="@drawable/green_fillet_background"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:text="@string/my_dialog_sure"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/my_username_dialog.xml -->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:id="@+id/my_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/my_layout_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <com.miracleworld.lingxingdao.android.view.myroundedimageview.RoundedImageView
+                android:id="@+id/my_center_image_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/login_default_head"
+                android:scaleType="fitXY"
+                app:riv_oval="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+                <EditText
+                    android:id="@+id/window_login_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:hint="@string/login_text1"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color"
+                    android:background="@null"/>
+            </RelativeLayout>
+            <View style="@style/Divider"
+                android:layout_marginBottom="10dp"
+                />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+                <EditText
+                    android:id="@+id/window_login_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:hint="@string/login_text2"
+                    android:textSize="15sp"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:maxLength="20"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color"
+                    android:background="@null"/>
+
+            </RelativeLayout>
+
+            <View style="@style/Divider"
+                android:layout_marginBottom="30dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/regist_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/login_text6"
+                    android:textColor="@color/hint_color"
+                    />
+                <TextView
+                    android:id="@+id/window_regist_butt"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/regist_tv"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/login_text3"
+                    android:textColor="@color/main_color"
+                    />
+                <TextView
+                    android:id="@+id/window_forget_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_text4"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/main_color"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/window_login_butt"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/main_fillet_background"
+                android:text="@string/login_text5"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/login_activity.xml -->

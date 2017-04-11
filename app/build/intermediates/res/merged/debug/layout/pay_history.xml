@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <!--    android:background="@color/grey_back"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/main_color"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/pay_history_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_goback" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/pay_history_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pay_history_text1"
+            android:textColor="@color/top_font_color"
+            android:textSize="16sp" />
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/title_right"
+            android:textColor="@color/top_font_color"
+            android:textSize="20sp"
+            android:layout_marginRight="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <RelativeLayout
+            android:id="@+id/history_channel_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           >
+         <TextView
+             android:textColor="@color/subscripte_grey_color"
+             android:id="@+id/channel_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:padding="10dp"
+             android:text="@string/pay_history_text6" />
+            <View
+                android:id="@+id/channl_coarse_line_left"
+                android:layout_below="@+id/channel_title"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/main_color"/>
+            <View
+                android:id="@+id/channl_fine_line_left"
+                android:layout_below="@+id/channel_title"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/main_color"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/history_ticket_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           >
+        <TextView
+            android:textColor="@color/subscripte_grey_color"
+            android:id="@+id/ticket_title"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pay_history_text7" />
+            <View
+                android:id="@+id/ticket_coarse_line_right"
+                android:layout_below="@+id/ticket_title"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/main_color"/>
+            <View
+                android:id="@+id/ticket_fine_line_right"
+                android:layout_below="@+id/ticket_title"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/main_color"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/history_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout><!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/pay_history.xml -->

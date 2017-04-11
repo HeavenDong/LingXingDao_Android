@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f8fb"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/paywrite_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/main_color"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/back_butt_add_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_goback" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/buy_ticket_person"
+            android:textColor="@color/top_font_color"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/sure_add_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/my_dialog_sure"
+            android:textColor="@color/top_font_color"
+            android:textSize="14sp"
+            android:paddingRight="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+        <TextView
+            android:id="@+id/butt_add_customer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="@string/add_ticket_customer"
+            android:textSize="12sp"
+            android:textColor="@color/main_color"
+            android:background="@drawable/add_customer_butt_backgound"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:divider="@null"
+        android:id="@+id/add_customer_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    </ListView>
+
+</LinearLayout>

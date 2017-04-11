@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_centerInParent="true"
+        android:textSize="13sp"
+        android:id="@+id/subscription_lv_tv_title"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/subscription_item_ispay_ont_color"
+        android:text="免费课程"/>
+        <Button
+            android:id="@+id/toextend"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="按钮"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="0.5dp"
+        android:background="@color/subscription_item_ispay_line_color"/>
+
+</LinearLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/activity_subscription_lv_item_ispay.xml -->

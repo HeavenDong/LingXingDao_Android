@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@color/main_color"
+            android:orientation="horizontal" >
+            <RelativeLayout
+                android:id="@+id/personal_title_left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_goback" />
+</RelativeLayout>
+            <TextView
+                android:id="@+id/personal_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/personal_data_title"
+                android:textColor="@color/top_font_color"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/personal_title_right"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_right"
+                android:textColor="@color/top_font_color"
+                android:textSize="16sp"
+                android:layout_marginRight="3dp"
+                />
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/person_list_bg"
+    android:padding="10dp">
+
+    <com.miracleworld.lingxingdao.android.view.myroundedimageview.RoundedImageView
+        android:id="@+id/personal_head_img"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:src="@drawable/person_profile"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        app:riv_oval="true" />
+
+    <LinearLayout
+        android:layout_below="@+id/personal_head_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/personal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="123"
+            android:textSize="14sp"
+             />
+    </LinearLayout>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/personal_data_text2"
+            android:textColor="@color/main_color"
+            android:textSize="14sp"/>
+    <View
+        style="@style/Divider"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        >
+        <GridView
+            android:id="@+id/personal_grid"
+            android:numColumns="5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:columnWidth="20dp"
+            android:stretchMode="columnWidth"
+            android:scrollbars="none"
+            />
+        <ImageView
+            android:id="@+id/personal_loading_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/ic_prompt_loading"
+            android:visibility="gone"
+            />
+        <RelativeLayout
+            android:id="@+id/personal_net_message"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:background="@color/top_font_color">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/netoff"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/personal_not_message"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+                android:background="@color/top_font_color">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/disscribed"
+                    android:paddingBottom="80dp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/my_personal_data.xml -->

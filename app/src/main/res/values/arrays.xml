@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_titles">
+        <item>首页</item>
+        <item>内容</item>
+        <item>连接</item>
+        <item>研讨会</item>
+        <item>商城</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 含title标题-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/main_color"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/activity_city_iv_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_goback" />
+        </RelativeLayout>
+        <!--<TextView-->
+        <!--android:id="@+id/home_detail_tv_title"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+
+        <!--android:textColor="@color/top_font_color"-->
+        <!--android:textSize="20sp" />-->
+        <!--<ImageView-->
+        <!--android:visibility="invisible"-->
+        <!--android:id="@+id/home_iv_title_right"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="centerCrop" />-->
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/activity_city_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
+<!-- From: file:/E:/LingXingDao1.0/LingXingDao_Android/app/src/main/res/layout/activity_city.xml -->
